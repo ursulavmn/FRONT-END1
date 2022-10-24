@@ -3,7 +3,6 @@ margin: 0px;
 padding: 0px;
 }
 
-
 header{
     background: #BBBBBB;
     padding: 20px 0;
@@ -36,12 +35,33 @@ nav a {
     font-size: 22px;
 }
 
+nav a:hover{
+color: #c78c19;
+text-decoration: underline;
+
+
+}
+
+
 .produtos {
     width: 940px;
     margin: 0px auto;
     padding: 50px 0;
 }
 
+
+.produtos li:hover{
+    border-color: #c78c19;
+    font-size: 40px;
+}
+
+.produtos li:active{
+    background-color: #c78c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
 
 .produtos li{
     display: inline-block;
@@ -71,5 +91,17 @@ nav a {
     font-size: 22px;
     font-weight: bolder;
     margin: 10px 0 0 ;
+}
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
+
+.copy{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 20px 0 0 ;
 }
 
